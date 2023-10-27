@@ -1,28 +1,56 @@
 ﻿using System.ComponentModel.Design;
 
-var name = "Ewa";
-char gender = 'K';
-int Age1 = 33;
-int newAge = Age1 - 5;
+string name = "Ewa";
+var gender = "Kobieta";
+var Age = 33;
+if (Age < 33 && name == "Ewa") ;
+{
+    Console.WriteLine("Kobieta poniżej 30lat");
+}
 
-int Age2 = 17;
-char genger2 = 'M';
+if (Age == 33 && name == "Ewa") ;
+{
+    Console.WriteLine("Ewa lat33");
+}
 
-Console.WriteLine(newAge);
+if (Age < 33 && gender != "Kobieta") ;
+{
+    Console.WriteLine("Niepełnoletni mężczyzna");
+}
 
-if (newAge > 33);
-var isValid = 28 > 33;
 
-Console.WriteLine(isValid);
 
-if (name == "Ewa" && Age1 == 33) ;
 
-Console.WriteLine("Ewa lat 33");
 
-if (newAge == 28) ;
 
-Console.WriteLine(" Kobieta poniżej 30 lat");
 
-if (Age2 < 18 && genger2 == 'M');
 
-Console.WriteLine(" Niepełnoletni mężczyzna");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
