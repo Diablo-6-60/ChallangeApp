@@ -2,13 +2,12 @@
 
 string name = "Ewa";
 var gender = "Kobieta";
-var Age = 33;
-if (Age < 33 && name == "Ewa") ;
+
+if (name == "Ewa" && Age == "33")
 {
     Console.WriteLine("Kobieta poniżej 30lat");
 }
-
-if (Age == 33 && name == "Ewa") ;
+if (Age < 30 && gender == "kobieta")
 {
     Console.WriteLine("Ewa lat33");
 }
