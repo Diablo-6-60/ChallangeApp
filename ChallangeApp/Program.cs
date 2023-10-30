@@ -1,55 +1,19 @@
 ﻿using System.ComponentModel.Design;
 
-string name = "Ewa";
-var gender = "Kobieta";
+var name = "Ewa";
+var Age = 17;
+var gender = "mężczyzna";
 
-if (name == "Ewa" && Age == "33")
-{
-    Console.WriteLine("Kobieta poniżej 30lat");
-}
-if (Age < 30 && gender == "kobieta")
-{
-    Console.WriteLine("Ewa lat33");
-}
 
-if (Age < 33 && gender != "Kobieta") ;
+if (name == "Ewa" && Age == 33)
+{
+    Console.WriteLine("Ewa, lat 33");
+}
+if (gender == "mężczyzna" && Age == 17)
+{
+    Console.WriteLine("Kobieta poniżej 30 lat");
+}
+else if (Age < 18 && gender == "mężczyzna")
 {
     Console.WriteLine("Niepełnoletni mężczyzna");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
